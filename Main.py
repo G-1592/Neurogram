@@ -214,7 +214,7 @@ def load_mri_patient(filename):
 
 pl = pv.Plotter()
 pl.set_background("black")
-pl.show(auto_close=False, interactive_update=True, full_screen=True)
+pl.show(auto_close=False, interactive_update=True, full_screen=False)
 pl.camera_position = 'yz'
 pl.camera.zoom(1.1)
 
