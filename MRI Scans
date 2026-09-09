@@ -1,6 +1,6 @@
 # PASTE THE BRATS 2023 ADULT GLIOMA (BRATS-GLI) DATASET IN HERE.
 
-# - This project was developed and tested using data from the **BraTS 2023 Adult Glioma (BraTS-GLI) dataset**. The MRI data is not included in this repository.
+# - This project was developed and tested using data from the BraTS 2023 Adult Glioma (BraTS-GLI) dataset. The MRI data is not included in this repository.
 # - Users must obtain the BraTS dataset from the official source and place all the files in this directory ("MRI Scans").
 # - Users must acknowledge and cite the BraTS dataset according to the dataset's citation requirements. 
 
