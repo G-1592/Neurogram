@@ -6,6 +6,8 @@ An interactive 3D MRI tumour visualisation system that combines medical imaging,
 ## About
 The system takes brain MRI data alongside tumour segmentation data and reconstructs them into interactive 3D meshes. A webcam and hand-tracking model then allow the user to interact with the visualisation using hand gestures rather than a mouse. An additional Pepper's Ghost display of the brain mesh was added to enhance the visual experience.
 
+**Disclaimer:** Neurogram is a visualisation personal project and is not a medically accurate diagnostic tool; it is not intended for clinical use or to support medical diagnosis or treatment.
+
 ## Demo Videos
 A very quick demo video (so that it fits in the README!). Longer demo videos are available on my LinkedIn below:
 
@@ -82,7 +84,7 @@ OpenCV and MediaPipe are then used to track the user's hand and recognise differ
 3. ### Uploading the MRI data
   This project was developed and tested using data from the **BraTS 2023 Adult Glioma (BraTS-GLI) dataset**.
 
-  The MRI data is not included in this repository.
+  No patient MRI scans, patient-identifiable information, or other sensitive/personal data are included in this repository. Users are responsible for obtaining and handling the dataset in accordance with the BraTS dataset's terms, citation requirements, and any applicable data-use conditions.
 
   Users must obtain the BraTS 2023 Adult Glioma (BraTS-GLI) dataset from the official source and place the required files in the **MRI Scans** directory.
   
