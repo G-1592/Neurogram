@@ -2,7 +2,7 @@
 An interactive 3D MRI tumour visualisation system that combines medical imaging, computer vision and 3D graphics.
 
 ## About
-The system takes brain MRI data alongside tumour segmentation data and reconstructs them into interactive 3D meshes. A webcam and hand-tracking model then allow the user to interact with the visualisation using hand gestures rather than a mouse. An additional Pepper's Ghost display of the brain mesh was added to enhance the visual experience for the user.
+The system takes brain MRI data alongside tumour segmentation data and reconstructs them into interactive 3D meshes. A webcam and hand-tracking model then allow the user to interact with the visualisation using hand gestures rather than a mouse. An additional Pepper's Ghost display of the brain mesh was added to enhance the visual experience.
 
 ## Demo Videos
 
@@ -11,29 +11,23 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
 
 
 ## Key features
-**Calibration system** - Sets user-specific finger bend thresholds using angle and distance data.
 
-**Practice mode** - Checks real-time finger position accuracy for each flute note using hand tracking and hold-to-confirm validation. Optimised for beginner one-octave practice.
-
-**Posture mode** - Tracks embouchure and head alignment using face tracking.
-
-**Gesture-controlled buttons** - Easy touch-free navigation between different modes.
 
 
 ## Screenshots
 <table>
   <tr>
     <td align="center">
-      
-      <br> Practice Mode 
+      <img src="https://github.com/user-attachments/assets/a69e45e0-df6a-48fe-80c9-a156bdd15e3a" width="250">
+      <br> Brain and Tumour Meshes
       </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/a0100416-095f-4aae-adb5-9ebeea77826c" width="250">
-      <br> Calibration System
+      <img src="https://github.com/user-attachments/assets/2fc4f7ad-e417-42b6-a440-3efef15b3b19" width="250">
+      <br> Zoom Control
       </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/f2f0c4cd-d0a2-4bf9-b8cc-78b1cd1a22d3" width="250">
-      <br> Face Landmark Analysis
+      <img src="https://github.com/user-attachments/assets/b5c56897-6a6e-4d20-b57f-e4548a229387" width="250">
+      <br> Annotation mode
       </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/96e35cbe-32cc-468f-8712-a039010ca02e" width="250">
