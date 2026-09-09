@@ -54,12 +54,15 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
    ```
 
 2. ### Required Model Files
-   The system also requires the official MediaPipe Hand Landmarker files:
+  The system also requires the official MediaPipe Hand Landmarker files:
    - hand_landmarker.task - available from the [MediaPipe Hand Landmarker documentation](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/python)
    
    Place file in the main project directory.
 
-3. ### Running the system
+3. ### Uploading the MRI data
+
+
+4. ### Running the system
    Once the libraries and model files are installed:
    
    **Using an IDE:** Run `main.py`.
@@ -81,8 +84,3 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
 [3] S. Bakas, H. Akbari, A. Sotiras, M. Bilello, M. Rozycki, J.S. Kirby, et al., "Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features", Nature Scientific Data, 4:170117 (2017) DOI: 10.1038/sdata.2017.117
 
 ## Findings
-The aim of this project was to see how meaningfully computer vision alone can analyse live flute performance. The results were more accurate than I initially expected! 
-
-However, without audio input, there were several limitations. For example, distinguishing between certain notes can be difficult when the relevant fingering information is not visible to the camera. This was particularly evident with notes C3 and B4 as the thumb behind the flute (which is responsible for changing the pitch) is unseen.
-
-I also found that the right pinky finger was sometimes not detected fully. Although this did not significantly change the recognition of most notes tested, it did reduce the accuracy for detecting D sharp as this is the only note that relies on the right pinky finger to change pitch.
