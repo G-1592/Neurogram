@@ -27,9 +27,16 @@ https://github.com/user-attachments/assets/36f6b5c0-deab-4fa0-baca-409dbad74fd2
       <img width="403" height="247" alt="Manual" src="https://github.com/user-attachments/assets/755bde11-37dd-429d-96eb-80dfff3cb923" />
     </td>
     <td>
-        - **Hand gestures** (shown on the left)
-        - **Annotation mode** --> 
-    </td>
+           🤙 <strong>Hand Gesture Controls</strong><br>
+    Control the 3D brain and tumour models using intuitive hand gestures, including zoom, manual rotation, automatic rotation, and tumour highlighting.<br><br>
+  
+    🖌️ <strong>Annotation Mode</strong><br>
+    Annotate the brain model using your index finger, with six colour options available.<br><br>
+  
+    🧠 <strong>Brain & Tumour Calculations</strong><br>
+    Calculates the 3D mesh volume, estimates the volume from the original MRI segmentation, and displays the percentage difference between the two measurements.
+  
+  </td>
   </tr>
 </table>
 
