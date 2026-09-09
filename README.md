@@ -1,7 +1,7 @@
 # Neurogram
 An interactive 3D MRI tumour visualisation system that combines medical imaging, computer vision and 3D graphics.
 
-⚠️🚨**IMPORTANT NOTICE:** *This project is currently undergoing modularisation. At present, all code is contained within the main.py file. Modularisation is expected to be completed very soon.* 🚨⚠️
+⚠️**IMPORTANT NOTICE:** *This project is currently undergoing modularisation. At present, all code is contained within the main.py file. Modularisation is expected to be completed very soon.* 
 
 ## About
 The system takes brain MRI data alongside tumour segmentation data and reconstructs them into interactive 3D meshes. A webcam and hand-tracking model then allow the user to interact with the visualisation using hand gestures rather than a mouse. An additional Pepper's Ghost display of the brain mesh was added to enhance the visual experience.
@@ -70,7 +70,7 @@ OpenCV and MediaPipe are then used to track the user's hand and recognise differ
      
    Install the required libraries using:
    ```bash
-   pip install opencv-python mediapipe numpy nibabel pyvista os
+   pip install opencv-python mediapipe numpy nibabel pyvista
    ```
 
 2. ### Required Model Files
@@ -84,9 +84,9 @@ OpenCV and MediaPipe are then used to track the user's hand and recognise differ
 
   The MRI data is not included in this repository.
 
-  Users must obtain the BraTS dataset from the official source and place all the files in the directory named "MRI Scans".
+  Users must obtain the BraTS 2023 Adult Glioma (BraTS-GLI) dataset from the official source and place the required files in the **MRI Scans** directory.
   
-# - Users must acknowledge and cite the BraTS dataset according to the dataset's citation requirements. 
+ **Important:** *Users must acknowledge and cite the BraTS dataset according to the dataset's citation requirements.* 
 
 4. ### Running the system
    Once the libraries and model files are installed:
@@ -103,6 +103,8 @@ OpenCV and MediaPipe are then used to track the user's hand and recognise differ
 - This project was developed and tested using data from the **BraTS 2023 Adult Glioma (BraTS-GLI) dataset**. The MRI data is not included in this repository.
 
 ## Citations
+The following references are included in accordance with the BraTS dataset citation requirements:
+
 [1] U.Baid, et al., The RSNA-ASNR-MICCAI BraTS 2021 Benchmark on Brain Tumor Segmentation and Radiogenomic Classification, arXiv:2107.02314, 2021.
 
 [2] B. H. Menze, A. Jakab, S. Bauer, J. Kalpathy-Cramer, K. Farahani, J. Kirby, et al. "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)", IEEE Transactions on Medical Imaging 34(10), 1993-2024 (2015) DOI: 10.1109/TMI.2014.2377694
