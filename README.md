@@ -27,11 +27,11 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
       </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/b5c56897-6a6e-4d20-b57f-e4548a229387" width="250">
-      <br> Annotation mode
+      <br> Annotation Mode
       </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/96e35cbe-32cc-468f-8712-a039010ca02e" width="250">
-      <br> Posture Mode
+      <img src="https://github.com/user-attachments/assets/ef38a0a8-5550-469a-b74e-196206378f17" width="250">
+      <br> Manual Rotation
       </td>
   </tr>
 </table>
