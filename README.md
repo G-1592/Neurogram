@@ -42,18 +42,20 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
    - OpenCV
    - MediaPipe
    - NumPy
+   - NiBabel
+   - PyVista
+   - os
      
    Install the required libraries using:
    ```bash
-   pip install opencv-python mediapipe numpy
+   pip install opencv-python mediapipe numpy nibabel pyvista os
    ```
 
 2. ### Required Model Files
-   The system also requires the official MediaPipe Hand Landmarker and Face Landmarker model files:
+   The system also requires the official MediaPipe Hand Landmarker files:
    - hand_landmarker.task - available from the [MediaPipe Hand Landmarker documentation](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/python)
-   - face_landmarker.task - available from the [MediaPipe Face Landmarker documentation](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker/python)
    
-   Place both files in the main project directory.
+   Place file in the main project directory.
 
 3. ### Running the system
    Once the libraries and model files are installed:
