@@ -7,8 +7,9 @@ An interactive 3D MRI tumour visualisation system that combines medical imaging,
 The system takes brain MRI data alongside tumour segmentation data and reconstructs them into interactive 3D meshes. A webcam and hand-tracking model then allow the user to interact with the visualisation using hand gestures rather than a mouse. An additional Pepper's Ghost display of the brain mesh was added to enhance the visual experience.
 
 ## Demo Videos
+https://github.com/user-attachments/assets/36f6b5c0-deab-4fa0-baca-409dbad74fd2
 
-Uploading Video Project 45 (5).mp4…
+
 
 
 
