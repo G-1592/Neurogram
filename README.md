@@ -21,6 +21,7 @@ https://github.com/user-attachments/assets/36f6b5c0-deab-4fa0-baca-409dbad74fd2
 
 
 ## Key features
+<img width="403" height="247" alt="Manual" src="https://github.com/user-attachments/assets/755bde11-37dd-429d-96eb-80dfff3cb923" />
 
 
 
