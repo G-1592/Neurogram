@@ -45,7 +45,7 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
    - MediaPipe
    - NumPy
    - NiBabel
-   - PyVista
+   - PyVista (and VTK indirectly through PyVista)
    - os
      
    Install the required libraries using:
@@ -70,7 +70,15 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
     ```
 
 ## Acknowledgements
-- [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) for the hand and face landmark detection tools and models used in this project.
+- [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) for the hand landmark detection tools and models used in this project.
+- This project was developed and tested using data from the **BraTS 2023 Adult Glioma (BraTS-GLI) dataset**. The MRI data is not included in this repository.
+
+## Citations
+[1] U.Baid, et al., The RSNA-ASNR-MICCAI BraTS 2021 Benchmark on Brain Tumor Segmentation and Radiogenomic Classification, arXiv:2107.02314, 2021.
+
+[2] B. H. Menze, A. Jakab, S. Bauer, J. Kalpathy-Cramer, K. Farahani, J. Kirby, et al. "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)", IEEE Transactions on Medical Imaging 34(10), 1993-2024 (2015) DOI: 10.1109/TMI.2014.2377694
+
+[3] S. Bakas, H. Akbari, A. Sotiras, M. Bilello, M. Rozycki, J.S. Kirby, et al., "Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features", Nature Scientific Data, 4:170117 (2017) DOI: 10.1038/sdata.2017.117
 
 ## Findings
 The aim of this project was to see how meaningfully computer vision alone can analyse live flute performance. The results were more accurate than I initially expected! 
