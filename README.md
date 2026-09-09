@@ -13,12 +13,8 @@ A very quick demo video (so that it fits in the README!). Longer demo videos are
 
 https://github.com/user-attachments/assets/36f6b5c0-deab-4fa0-baca-409dbad74fd2
 
-
-
-
-
 ## How it works
-
+The project first loads a BraTS MRI scan from the load menu (controlled by "s", "w", backspace and enter keys). It takes the tumour segmentation data (-seg file) as well as the whole brain MRI file (-t1c file) to generate two meshes: a tumour mesh in red and a brain mesh in blue. This helps to distinguish between the two during brain relocation mode.
 
 ## Key features
 <table>
@@ -37,8 +33,6 @@ https://github.com/user-attachments/assets/36f6b5c0-deab-4fa0-baca-409dbad74fd2
   </td>
   </tr>
 </table>
-
-
 
 ## Screenshots
 <table>
