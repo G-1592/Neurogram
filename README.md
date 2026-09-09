@@ -80,7 +80,13 @@ OpenCV and MediaPipe are then used to track the user's hand and recognise differ
    Place file in the main project directory.
 
 3. ### Uploading the MRI data
+  This project was developed and tested using data from the **BraTS 2023 Adult Glioma (BraTS-GLI) dataset**.
+
+  The MRI data is not included in this repository.
+
+  Users must obtain the BraTS dataset from the official source and place all the files in the directory named "MRI Scans".
   
+# - Users must acknowledge and cite the BraTS dataset according to the dataset's citation requirements. 
 
 4. ### Running the system
    Once the libraries and model files are installed:
