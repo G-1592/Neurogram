@@ -1,0 +1,13 @@
+# PASTE THE BRATS 2023 ADULT GLIOMA (BRATS-GLI) DATASET IN HERE.
+
+# - This project was developed and tested using data from the **BraTS 2023 Adult Glioma (BraTS-GLI) dataset**. The MRI data is not included in this repository.
+# - Users must obtain the BraTS dataset from the official source and place the all the files in this directory ("MRI Scans").
+# - Users must acknowledge and cite the BraTS dataset according to the dataset's citation requirements. 
+
+## Citations
+
+#[1] U. Baid et al., "The RSNA-ASNR-MICCAI BraTS 2021 Benchmark on Brain Tumor Segmentation and Radiogenomic Classification," *arXiv:2107.02314*, 2021.
+
+#[2] B. H. Menze et al., "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)," *IEEE Transactions on Medical Imaging*, vol. 34, no. 10, pp. 1993–2024, 2015. doi: 10.1109/TMI.2014.2377694.
+
+#[3] S. Bakas et al., "Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features," *Scientific Data*, vol. 4, 170117, 2017. doi: 10.1038/sdata.2017.117.
