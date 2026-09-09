@@ -18,19 +18,19 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/a69e45e0-df6a-48fe-80c9-a156bdd15e3a" width="250">
+      <img src="https://github.com/user-attachments/assets/a69e45e0-df6a-48fe-80c9-a156bdd15e3a" width="250" height="180" style="object-fit: cover;">
       <br> Brain and Tumour Meshes
       </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/2fc4f7ad-e417-42b6-a440-3efef15b3b19" width="250">
+      <img src="https://github.com/user-attachments/assets/2fc4f7ad-e417-42b6-a440-3efef15b3b19" width="250" height="180" style="object-fit: cover;">
       <br> Zoom Control
       </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/b5c56897-6a6e-4d20-b57f-e4548a229387" width="250">
+      <img src="https://github.com/user-attachments/assets/b5c56897-6a6e-4d20-b57f-e4548a229387" width="250" height="180" style="object-fit: cover;">
       <br> Annotation Mode
       </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/ef38a0a8-5550-469a-b74e-196206378f17" width="250">
+      <img src="https://github.com/user-attachments/assets/ef38a0a8-5550-469a-b74e-196206378f17" width="250" height="180" style="object-fit: cover;">
       <br> Manual Rotation
       </td>
   </tr>
