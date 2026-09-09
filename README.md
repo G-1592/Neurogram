@@ -86,7 +86,7 @@ OpenCV and MediaPipe are then used to track the user's hand and recognise differ
 
   Users must obtain the BraTS 2023 Adult Glioma (BraTS-GLI) dataset from the official source and place the required files in the **MRI Scans** directory.
   
- **Important:** *Users must acknowledge and cite the BraTS dataset according to the dataset's citation requirements.* 
+ **Important:** Users must acknowledge and cite the BraTS dataset according to the dataset's citation requirements. 
 
 4. ### Running the system
    Once the libraries and model files are installed:
