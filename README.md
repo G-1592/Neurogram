@@ -80,7 +80,7 @@ OpenCV and MediaPipe are then used to track the user's hand and recognise differ
    Place file in the main project directory.
 
 3. ### Uploading the MRI data
-
+  
 
 4. ### Running the system
    Once the libraries and model files are installed:
