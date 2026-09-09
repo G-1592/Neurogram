@@ -8,8 +8,8 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
 
 ## Demo Videos
 A very quick demo video (so that it fits in the README!). Longer demo videos are available on my LinkedIn below:
-2D Demo video: https://lnkd.in/p/eB-bCJ2u
-3D Pepper's Ghost: https://lnkd.in/p/e8M5qwks
+
+2D Demo video: https://lnkd.in/p/eB-bCJ2u                          3D Pepper's Ghost: https://lnkd.in/p/e8M5qwks
 
 https://github.com/user-attachments/assets/36f6b5c0-deab-4fa0-baca-409dbad74fd2
 
