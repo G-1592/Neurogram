@@ -1,6 +1,8 @@
 # Neurogram
 An interactive 3D MRI tumour visualisation system that combines medical imaging, computer vision and 3D graphics.
 
+⚠️🚨**IMPORTANT NOTICE:** *This project is currently undergoing modularisation. At present, all code is contained within the main.py file. Modularisation is expected to be completed very soon.* 🚨⚠️
+
 ## About
 The system takes brain MRI data alongside tumour segmentation data and reconstructs them into interactive 3D meshes. A webcam and hand-tracking model then allow the user to interact with the visualisation using hand gestures rather than a mouse. An additional Pepper's Ghost display of the brain mesh was added to enhance the visual experience.
 
