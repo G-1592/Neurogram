@@ -14,7 +14,9 @@ A very quick demo video (so that it fits in the README!). Longer demo videos are
 https://github.com/user-attachments/assets/36f6b5c0-deab-4fa0-baca-409dbad74fd2
 
 ## How it works
-The project first loads a BraTS MRI scan from the load menu (controlled by "s", "w", backspace and enter keys). It takes the tumour segmentation data (-seg file) as well as the whole brain MRI file (-t1c file) to generate two meshes: a tumour mesh in red and a brain mesh in blue. This helps to distinguish between the two during brain relocation mode.
+The project first loads a BraTS MRI scan from the file-selection menu, controlled using the "s", "w", Backspace, and Enter keys. It uses the tumour segmentation data (-seg file) and the whole-brain MRI data (-t1c file), which are loaded using NiBabel and converted into two 3D meshes using PyVista: a tumour mesh displayed in red and a brain mesh displayed in blue. This makes it easier to distinguish between the brain and tumour during visualisation.
+
+OpenCV and MediaPipe are then used to track the user's hand and recognise different gestures, with each gesture corresponding to a specific control (see below). From the MRI data and voxel data, brain and tumour volumes are calculated. This includes brain/tumour mesh volume, estimated brain/tumour volume and percentage difference.
 
 ## Key features
 <table>
