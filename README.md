@@ -19,7 +19,7 @@ The system takes brain MRI data alongside tumour segmentation data and reconstru
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/a69e45e0-df6a-48fe-80c9-a156bdd15e3a" width="250" height="180" style="object-fit: cover;">
-      <br> Brain and Tumour Meshes
+      <br> Brain + Tumour Meshes
       </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/2fc4f7ad-e417-42b6-a440-3efef15b3b19" width="250" height="180" style="object-fit: cover;">
