@@ -27,10 +27,8 @@ https://github.com/user-attachments/assets/36f6b5c0-deab-4fa0-baca-409dbad74fd2
       <img width="403" height="247" alt="Manual" src="https://github.com/user-attachments/assets/755bde11-37dd-429d-96eb-80dfff3cb923" />
     </td>
     <td>
-      🤙 <strong>Manual Rotation</strong><br><br>
-      Use the pinky + thumb gesture to activate manual rotation.<br><br>
-      Move your index finger around the screen to control the
-      direction and axis of rotation.
+        - **Hand gestures** (shown on the left)
+        - **Annotation mode** --> 
     </td>
   </tr>
 </table>
